@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills-Test</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="OBMC LOGO 2024-Circle.png" alt="logo" height="50px">
+                O.B. Montessori Center
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="enroll.html">Enroll Now</a></li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <img src="OBMC LOGO 2024-Circle.png" alt="logo" height="80px">
+        <h1>OBMC Student Enrollment Form</h1>
+        <p class="mb-0">Fill out the form below to enroll for the upcoming school year.</p>
+    </div>
+
+    <div class="container">
+        <div class="vertical-layout bg-light p-3 mb-3 rounded" id="enrollment-form">
+            <form>
+                <h2 id="title">Student Information</h2>
+                <div class="row mb-3">
+                        <div class="mb-3 col-md-6 col-lg-6">
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="Zara">
+                        </div>
+                        
+                        <div class="mb-3 col-md-6 col-lg-6">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Yarra">
+                        </div>
+                </div>
+                <div class="row mb-3">
+                        <div class="mb-3 col-md-4 col-lg-4">
+                            <label for="dob" class="form-label">Date Of Birth</label>
+                            <input type="text" class="form-control" id="dob" placeholder="MM-DD-YYYY">
+                        </div>
+
+                        <div class="mb-3 col-md-4 col-lg-4">
+                            <label for="gdr" class="form-label">Gender</label>
+                            <select class="form-select" id="gdr">
+                                <option selected>Select...</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3 col-md-4 col-lg-4">
+                            <label for="grade" class="form-label">Grade Level</label>
+                            <select class="form-select" id="grade">
+                                <option selected>Select...</option>
+                                <option value="grade1">Grade 1</option>
+                                <option value="grade2">Grade 2</option>
+                                <option value="grade3">Grade 3</option>
+                                <option value="grade4">Grade 4</option>
+                                <option value="grade5">Grade 5</option>
+                                <option value="grade6">Grade 6</option>
+                                <option value="grade7">Grade 7</option>
+                                <option value="grade8">Grade 8</option>
+                                <option value="grade9">Grade 9</option>
+                                <option value="grade10">Grade 10</option>
+                                <option value="grade11">Grade 11</option>
+                                <option value="grade12">Grade 12</option>
+                            </select>
+                        </div>
+                </div>
+                <h2 id="title">Contact Details</h2>
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="text" class="form-control" id="email" placeholder="yarra.zara@gmail.com">
+                        <br>   
+                        <label for="number" class="form-label">Contact Number</label>
+                        <input type="text" class="form-control" id="number" placeholder="09XX-XXX-XXXX">
+
+                <br>
+                <h2 id="title">Other Information</h2>
+                <p>Mode of Learning:</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="mode">
+                    <label class="form-check-label">Online</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="mode">
+                    <label class="form-check-label">Face-to-Face</label>
+                </div>
+
+                <div class="form-check mt-3">
+                    <input class="form-check-input" type="checkbox">
+                    <label class="form-check-label">I confirm that the information provided is true and complete.</label>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn-submit">Submit Enrollment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+ </div>
+
+ <br>
+
+    <footer class="text-center py-3 bg-dark text-light mt-auto">
+        &copy; 2025 Copyright | Cassey Rigodon 9S
+    </footer>
+
+
+    
+</body>
+
+</html>
